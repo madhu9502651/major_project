@@ -1,0 +1,11 @@
+.max {
+    background-color: cadetblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.max .min{
+    width:40vw;
+    height:60vh;
+    background-color: cornflowerblue;
+}

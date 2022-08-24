@@ -1,0 +1,120 @@
+
+     .nav{
+         display: flex;
+         justify-content:space-between;
+         background-color: black;
+         width:100vw;
+         position:fixed;
+     }
+     .nav .navbar a{
+        text-decoration: none;
+        color:whitesmoke;
+        margin:1vw;
+        font-size:1.4vw;
+     }
+     .nav .navbar a:hover{
+         border-bottom:0.4vh solid goldenrod;
+         border-radius:0.4vw;
+     }
+     .nav .btn{
+        position: relative;
+         height:5vh;
+         left:-6vh;
+         top:1.2vh;
+         border-radius:0.5vw;
+         border:none;
+         background-color:skyblue;
+     }
+     .nav .btn a{
+         text-decoration:none;
+     }
+     .nav .btn a:hover{
+        border-bottom:0.4vh solid goldenrod;
+        border-radius:0.4vw;
+     }
+     .nav img{
+         width:14vw;
+         height:7vh;
+         position: relative;
+         top:0.25vh;
+         border:none;
+         border-radius:0.4vw;;
+     }
+    
+     .img1 img {
+       position:relative;
+       bottom:50px;
+       left:0px;
+       width:100vw;
+       height:400px;
+       opacity: 0.9;
+       border:none;
+       z-index: -1;
+       height:90vh;
+    
+    }
+     
+    .logos .res{
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+        
+    } 
+    .logos .bor{
+        border:2px solid pink;
+        margin:2vh;
+    }
+    .logos .res .bor h3{
+        text-align:center;
+    }
+    .logos .res.bor button{
+        position: relative;
+        /* left:5vw; */
+        z-index:-1;
+        cursor: pointer;
+    }
+    .logos .bor img{
+        width:15vw;
+        height:22vh;
+
+    }
+
+   
+    .footer{
+        color: whitesmoke;
+        background-color: black;
+        height:20vh;
+    }
+    .footer a{
+    text-decoration: none;
+    display:grid;
+    color:whitesmoke;
+    position: relative;
+    transition: 0.7s;
+    }
+    .footer a:hover{
+    transform:translateX(0.6vw);
+    }
+    .footer h2{
+        font-style: oblique;
+    }
+    .footer{
+        display:flex;
+        justify-content:space-evenly;
+    }
+    .footer .row1 {
+        display: flex;
+        justify-content:space-between;
+        position: relative;
+        top:1vh;
+        
+    }
+    .footer .row1 a{
+        font-size:25px;
+    }
+    
+    
+    
+    
+    
